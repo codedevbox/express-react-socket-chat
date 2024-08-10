@@ -1,0 +1,55 @@
+.chatitem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: solid 1px #ffffff18;
+
+  &.active {
+    background-color: rgb(22 19 73 / 60%);
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(33 29 97 / 60%);
+    object-fit: cover;
+  }
+
+  .text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    span {
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+  .unreaded {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(146 7 181);
+    border-radius: 50%;
+    padding: 3px;
+    border: solid 1px #ffffff18;
+
+    img {
+      width: 12px;
+      height: 12px;
+      object-fit: cover;
+      background-color: rgb(146 7 181);
+    }
+  }
+}
+.chatitem:hover {
+  background-color: rgb(22 19 73 / 60%);
+}

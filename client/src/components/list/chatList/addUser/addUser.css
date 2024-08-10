@@ -1,0 +1,74 @@
+.addUser {
+  width: max-content;
+  height: max-content;
+  padding: 30px;
+  background-color: rgb(22 19 73 / 95%);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  form {
+    display: flex;
+    gap: 20px;
+
+    input {
+      padding: 20px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      background-color: rgb(33 29 97 / 90%);
+      color: white;
+      padding: 10px 20px;
+      border: solid 1px #ffffff18;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(22 19 73 / 60%);
+        scale: 1.1;
+      }
+    }
+  }
+  .user {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .userdetail {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-direction: row;
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-color: rgb(33 29 97 / 60%);
+      }
+    }
+
+    button {
+      background-color: rgb(33 29 97 / 90%);
+      color: white;
+      padding: 10px 20px;
+      border: solid 1px #ffffff18;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(22 19 73 / 60%);
+        scale: 1.1;
+      }
+    }
+  }
+}
